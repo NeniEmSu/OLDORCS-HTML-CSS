@@ -1,0 +1,105 @@
+html {
+    overflow: hidden !important;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+    width: 100vw;
+    height: 100vh !important;
+
+    padding: 100px 0;
+
+    overflow: hidden !important;
+
+    background-image: url(../img/backgroundImg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+header {
+    text-align: center;
+}
+
+header svg {
+    width: 261.68px;
+    height: 85.87px;
+}
+
+main {
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+}
+
+.main_content {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-top: auto;
+    text-align: left;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+
+    margin-bottom: 30px;
+}
+
+.contact_details {
+    display: block;
+}
+
+
+.contact_detail {
+    display: flex;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contact_detail svg {
+    margin-right: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+.contact_detail p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+@media only screen and (min-width: 1024px) {
+    main {
+        position: absolute;
+        bottom: 100px;
+        width: 50%;
+    }
+
+    header {
+        text-align: right;
+    }
+
+    .main_content {
+        position: relative;
+        display: block;
+        width: 50%;
+        margin-top: auto;
+        text-align: center;
+    }
+
+}
