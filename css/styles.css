@@ -13,7 +13,7 @@ body {
     width: 100vw;
     height: 100vh !important;
 
-    padding: 100px 0;
+    padding: 50px 0;
 
     overflow: hidden !important;
 
@@ -35,7 +35,7 @@ header svg {
 
 main {
     position: absolute;
-    bottom: 100px;
+    bottom: 50px;
     width: 100%;
 }
 
@@ -87,6 +87,12 @@ h1 {
     color: #000000;
 }
 
+main {
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+}
+
 @media only screen and (min-width: 1024px) {
     main {
         position: absolute;
@@ -97,6 +103,24 @@ h1 {
     header {
         text-align: right;
     }
+    
+    body {
+    font-family: 'Roboto', sans-serif;
+
+    width: 100vw;
+    height: 100vh !important;
+
+    padding: 100px 0;
+
+    overflow: hidden !important;
+
+    background-image: url(../img/backgroundImg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
 
     .main_content {
         position: relative;
