@@ -1,0 +1,146 @@
+body {
+    color: #666666;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 100px;
+
+    display: flex;
+}
+
+header svg {
+    width: auto;
+    height: 65px;
+    margin: auto 0;
+}
+
+header ul.nav {
+    display: flex;
+}
+
+header ul.nav li {
+    line-height: 80px;
+    list-style: none;
+    margin: 0 0 0 50px;
+
+}
+
+header ul.nav li:hover::after,
+header ul.nav li.active::after {
+    content: '';
+    display: block;
+    border-bottom: 5px #0084A1 solid;
+}
+
+header ul.lang {
+    display: flex;
+}
+
+header ul.lang li {
+    line-height: 80px;
+    list-style: none;
+    margin: 0 0 0 20px;
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+
+header ul.lang li:hover,
+header ul.lang li.active {
+    color: #0084A1;
+}
+
+@media only screen and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+
+@media only screen and (min-width: 788px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+
+.container {
+    max-width: 960px;
+}
+
+
+main {
+    width: 100vw;
+    height: calc(100vh - 100px);
+
+    background-image: url(../img/homeBackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 60%;
+
+    color: #ffffff;
+
+    margin: 15px 0;
+
+}
+
+span.start {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+    display: block;
+    text-align: left;
+
+}
+
+span.end {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+    display: block;
+    text-align: right;
+}
