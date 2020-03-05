@@ -145,7 +145,7 @@ a.fromleft::after {
 
 @media only screen and (min-width: 1400px) {
     .container {
-        max-width: 1530px;
+        max-width: 1110px;
     }
 }
 
@@ -179,5 +179,5 @@ a.fromleft::after {
 
 
 .container {
-    max-width: 1530px;
+    max-width: 1110px;
 }
